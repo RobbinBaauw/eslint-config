@@ -1,7 +1,8 @@
 {
     "name": "@robbinbaauw/eslint-config",
     "description": "My personal ESLint config",
-    "version": "1.0.0",
+    "version": "0.0.0",
+    "private": false,
     "author": "Robbin Baauw",
     "bugs": {
         "url": "https://github.com/RobbinBaauw/eslint-config/issues",
