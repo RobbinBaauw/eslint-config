@@ -29,6 +29,12 @@ module.exports = {
         "@typescript-eslint/explicit-member-accessibility": "off",
         "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/explicit-module-boundary-types": [
+            "error",
+            {
+                allowArgumentsExplicitlyTypedAsAny: true,
+            },
+        ],
         "prettier/prettier": [
             "error",
             {
